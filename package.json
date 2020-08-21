@@ -51,9 +51,10 @@
     "node": ">=8.9"
   },
   "dependencies": {
-    "@types/lodash": "^4.14.159",
-    "lodash": "^4.17.20",
-    "sha.js": "^2.4.11"
+    "@types/lodash.debounce": "^4.0.6",
+    "lodash.debounce": "^4.0.8",
+    "sha.js": "^2.4.11",
+    "ts-node": "^8.10.2"
   },
   "devDependencies": {
     "@bitjson/npm-scripts-info": "^1.0.0",
