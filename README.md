@@ -17,13 +17,24 @@
 
 ## Supported
 
-> :white_check_mark: Support &nbsp;&nbsp;&nbsp;&nbsp;:x: Not Supported
+> :white_check_mark: Support &nbsp;&nbsp;&nbsp;&nbsp;:x: Not Supported &nbsp;&nbsp;⚠️ Issue
 
 
 ### :white_check_mark: `reactive`
 
 
 ### :white_check_mark: `ref`
+
+- ⚠️ *Warning: Operator '+' cannot be applied to types 'IRef<number>' and 'number'.*
+```ts
+const a = ref(0);
+const b = ref(a);    
+
+expect(typeof (b.value + 1)).to.be.an('number');
+```
+
+- ⚠️ *Warning: handling Array, Set, Map*
+
 
 ### :white_check_mark: `computed`
 
