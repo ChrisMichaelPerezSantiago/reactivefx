@@ -51,8 +51,9 @@
     "node": ">=8.9"
   },
   "dependencies": {
-    "sha.js": "^2.4.11",
-    "vue-demi": "latest"
+    "@types/lodash": "^4.14.159",
+    "lodash": "^4.17.20",
+    "sha.js": "^2.4.11"
   },
   "devDependencies": {
     "@bitjson/npm-scripts-info": "^1.0.0",
@@ -71,8 +72,7 @@
     "tslint": "^5.18.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-immutable": "^6.0.1",
-    "typescript": "^3.5.3",
-    "vue": "^2.6.11"
+    "typescript": "^3.5.3"
   },
   "ava": {
     "failFast": true,
