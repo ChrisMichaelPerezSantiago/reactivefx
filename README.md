@@ -8,6 +8,32 @@
 </p>
 
 
+<br/>
+<br/>
+<br/>
+
+> :bulb: Project in premature state, contributors are more than welcome
+
+
+## Supported
+
+> :white_check_mark: Support &nbsp;&nbsp;&nbsp;&nbsp;:x: Not Supported
+
+
+### :white_check_mark: `reactive`
+
+
+### :white_check_mark: `ref`
+
+### :white_check_mark: `computed`
+
+### :white_check_mark: `watch`
+
+---
+
+
+
+
 ## **:handshake: Contributing**
 
 - Fork it!
