@@ -3,10 +3,13 @@
 </p>
 
 <p align="center">
+  A Universal Reactive API compatible with any application written in Typescript or Javascript.
+</p>
+
+<p align="center">
   <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-greencolor=42b883.svg" />          
   <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellowcolor=42b883.svg" />
 </p>
-
 
 <br/>
 <br/>
