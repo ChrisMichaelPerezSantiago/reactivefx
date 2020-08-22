@@ -45,6 +45,61 @@ expect(typeof (b.value + 1)).to.be.an('number');
 
 ---
 
+## Store
+A optional state management pattern.
+
+
+### :white_check_mark: `new Store({})`
+The `Store consists of four objects. The four objects are the `state, `actions`, `mutations` and `getters`.
+
+- `getters` :x: not supported yet
+
+```ts
+const createStore = () => new Store({
+  state: {},
+  mutations: {},
+  actions: {},
+  getters: {}
+});
+```
+
+- The `state` is an object that contains the state of the application data.
+  - It can even be `reactive`
+
+```json
+state: {
+  count: 1 // or state: reactive({count: 1})
+}
+```
+
+- `Mutations` is also an object that contains methods that affect the state and only care to control the states, to manipulate it. A mutation may have two arguments as state and payload:
+
+
+  - [x] **state** has the current state of an application.
+  - [x] **payload** is an optional one, which will give the data to mutate.
+
+```js
+mutations: {
+  INCREMENT(state , payload){
+     state.count += payload;
+  }
+}
+```
+
+- `Actions` are methods used to cause mutations and execute asynchronous code. Responsible for preparing everything necessary for a mutation to confirm a change in the state.
+
+```ts
+actions:{
+  increment(context , payload){
+    context.commit('INCREMENT' , payload) // increment state.count by payload value
+  }
+}
+```
+
+- `Getters` contain the methods used to abstract access to the state and to do some preprocessing tasks, if necessary (data calculation, filtering, etc …), ⚠️ examples not available now.
+
+---
+
 
 
 
