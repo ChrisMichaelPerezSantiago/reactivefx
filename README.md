@@ -66,7 +66,7 @@ const createStore = () => new Store({
 - The `state` is an object that contains the state of the application data.
   - It can even be `reactive`
 
-```json
+```js
 state: {
   count: 1 // or state: reactive({count: 1})
 }
